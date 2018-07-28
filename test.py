@@ -6,8 +6,7 @@
 
 ## API building
 # Simple Flask API
-
-#tf.keras.backend.clear_session()
+# address/apidocs
 
 #import tensorflow as tf
 from keras.models import load_model

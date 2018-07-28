@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 """
 
-
 @author: most husne jahan
 """
+# keras model usinf MNIST dataset
 
 from keras.datasets import mnist
 import matplotlib. pyplot as plt

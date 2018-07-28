@@ -26,5 +26,5 @@ Train result:
 error is 6.77% validation acuuracy 93.23% after 3-epoch
  
 Test result(deploy with a flask API): 
-Build an Flask API. We can call the API from mobole app.
+Build an Flask API. We can call the API from mobile app.
  

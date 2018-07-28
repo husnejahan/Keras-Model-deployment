@@ -25,6 +25,6 @@ For loss crossentropy and adam optimizer. Model.fit, I used batch size 32 means 
 Train result:
 error is 6.77% validation acuuracy 93.23% after 3-epoch
  
-Test(deploy with a flask API)
-We can call the API from mobole app.
+Test result(deploy with a flask API): 
+Build an Flask API. We can call the API from mobole app.
  

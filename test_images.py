@@ -1,5 +1,7 @@
 
 # For Genrating test images
+# randomly generated 10 images for tesing 
+
 from PIL import Image
 from keras.datasets import mnist
 import numpy as np

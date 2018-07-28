@@ -80,6 +80,7 @@ model = baseline_model()
 model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=3,
           batch_size=32, verbose=2)
 
+# save model in present working directory
 model.save('model.h5')
 print('Model saved complete')
 

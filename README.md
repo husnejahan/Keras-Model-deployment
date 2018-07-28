@@ -1,8 +1,6 @@
 # Keras-Model-deployment with Flask API
 
-# I used the Keras Sequential model API
-
-# The Sequential model is a linear stack of layers. The layers of the CNN are:
+I used the Keras Sequential model API. The Sequential model is a linear stack of layers. The layers of the CNN are:
 
  a) 2D convolution layer[Conv2D(filters, kernel_size]
  
@@ -22,11 +20,11 @@
  
  e) output dense layer
  
- For loss crossentropy and adam optimizer. Model.fit, I used batch size 32 means at a time only 32 images will load in memory and epoch =3 only
+For loss crossentropy and adam optimizer. Model.fit, I used batch size 32 means at a time only 32 images will load in memory and epoch =3 only
  
- # Train result:
- error is 6.77% validation acuuracy 93.23% after 3-epoch
+Train result:
+error is 6.77% validation acuuracy 93.23% after 3-epoch
  
- # Test(deploy with a flask API)
- We can call the API from mobole app.
+Test(deploy with a flask API)
+We can call the API from mobole app.
  
